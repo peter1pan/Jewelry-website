@@ -1,0 +1,20 @@
+
+  .main-nav {
+    position: fixed;
+    background-color: black;
+    z-index: 99999;
+    width: 100%;
+    text-align: center;
+    nav {
+      margin: 1.2rem;
+      a {
+        margin: 3rem;
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: rgb(217, 185, 155);
+        }
+      }
+    }
+  }
+

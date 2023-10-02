@@ -1,0 +1,43 @@
+$main-font: "Philosopher", sans-serif;
+$main-color: #69443c;
+
+.container {
+  color: $main-color;
+  width: 150px;
+  height: 239px;
+  overflow: hidden;
+  padding: 0.5rem;
+  .card-img-top {
+    height: 150px;
+    width: 150px;
+  }
+
+  .card-body {
+    border-radius: 10px;
+    .prev-price {
+      font-size: 13px;
+      color: #69443ca6;
+      text-decoration: line-through;
+    }
+    p,
+    h3 {
+      text-align: end;
+    }
+    .link-to {
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 19px;
+      background-color: #69443c;
+      color: white;
+    }
+  }
+}
+
+.jewels-card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97916f30.css",
+    "main.js": "/static/js/main.ec897d69.js",
+    "static/media/black-women.jpg": "/static/media/black-women.84c0ec14acb272b21d22.jpg",
+    "static/media/mid-images-1.jpg": "/static/media/mid-images-1.2fa9e72f5a3809349a81.jpg",
+    "static/media/header-image.jpg": "/static/media/header-image.0431dc31e86cb58ce913.jpg",
+    "static/media/mid-images-2.jpg": "/static/media/mid-images-2.9700a1f2fc9afd3a0d86.jpg",
+    "static/media/shop-image.jpg": "/static/media/shop-image.5dd5f0c65e056f9919d2.jpg",
+    "static/media/new-arrivals-2.jpg": "/static/media/new-arrivals-2.9f10be040f73df48c316.jpg",
+    "static/media/earrings.jpg": "/static/media/earrings.06fe53d96061e865dada.jpg",
+    "static/media/best-sellers-img2.jpg": "/static/media/best-sellers-img2.795ad5481df5ac38d6dc.jpg",
+    "static/media/new-arrivals-3.jpg": "/static/media/new-arrivals-3.aff588065ff8a55cb7c6.jpg",
+    "static/media/new-arrivals-4.jpg": "/static/media/new-arrivals-4.0f26f3c39ef08e349197.jpg",
+    "static/media/Bracelets.jpg": "/static/media/Bracelets.f71a49dde515ef6e9426.jpg",
+    "static/media/Ring2.jpg": "/static/media/Ring2.28941a15a48213584420.jpg",
+    "static/media/Necklaces.jpg": "/static/media/Necklaces.67ce74ec797ddb6f7160.jpg",
+    "static/media/Ring.jpg": "/static/media/Ring.e721274d3ae40b8f8cea.jpg",
+    "static/media/new-arrivals-1.jpg": "/static/media/new-arrivals-1.6da1d81bc38fe965d5a1.jpg",
+    "static/media/Ring3.jpg": "/static/media/Ring3.03ffff22307078503a90.jpg",
+    "static/media/best-seller-ring.jpg": "/static/media/best-seller-ring.575bddaf26ce1ee6eebe.jpg",
+    "static/media/best-sellers-img.jpg": "/static/media/best-sellers-img.c788f45e56f61d920ca7.jpg",
+    "static/media/logo.png": "/static/media/logo.b2c766d28959d9988e21.png",
+    "index.html": "/index.html",
+    "main.97916f30.css.map": "/static/css/main.97916f30.css.map",
+    "main.ec897d69.js.map": "/static/js/main.ec897d69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97916f30.css",
+    "static/js/main.ec897d69.js"
+  ]
+}

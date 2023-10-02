@@ -1,0 +1,16 @@
+.new-arrivals {
+    .title {
+        margin: 2rem;
+    }
+    .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+        img {
+            height: 400px;
+            width: 400px;
+            border-radius: 15px;
+        }
+    }
+}

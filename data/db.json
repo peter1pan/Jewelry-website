@@ -1,0 +1,23 @@
+{
+  "shop": [
+    {
+      "id": "1",
+      "title": "jade diamond",
+      "price": 10000,
+      "prevPrice": 20000
+     
+    },
+    {
+      "id": "2",
+      "title": "jade emerald",
+      "price": 20000,
+      "prevPrice": 30000
+    },{
+      "id": "3",
+      "title": "Jade amulet",
+      "price": 30000,
+      "prevPrice": 40000
+    }
+  ]
+  
+}

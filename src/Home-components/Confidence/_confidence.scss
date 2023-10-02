@@ -1,0 +1,32 @@
+.confidence {
+    background-color: rgb(217, 185, 155);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+    h3 {
+        font-size: 3.5rem;
+        padding: 2rem;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .divider {
+        width: 24px;
+        height: 1px;
+        background-color: black;
+        margin: 0 auto 20px;
+        margin-top: 2rem;
+    }
+
+    .delivery {
+        display: flex;
+        justify-content: center;
+
+        svg {
+            fill: rgb(70, 70, 70);
+        }
+    }
+}

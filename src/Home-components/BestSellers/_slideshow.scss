@@ -1,0 +1,40 @@
+.slide-container {
+    background: rgb(217, 185, 155);
+    height: 70vh;
+    .spanStyle {
+        width: 500px;
+        h2 {
+            margin-bottom: 1rem;
+        }
+        .caption {
+            font-size: 20px;
+        }
+    }
+
+    .best-sellers {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: start;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .images {
+        height: 400px;
+        width: 500px;
+        border-radius: 20px;
+    }
+}
+
+.title {
+    text-align: center;
+    h1 {
+        font-size: 3rem;
+        font-weight: 200;
+        margin-top: 0.7rem;
+    }
+    p {
+        font-size: 1.1rem;
+        padding: 2rem;
+    }
+}

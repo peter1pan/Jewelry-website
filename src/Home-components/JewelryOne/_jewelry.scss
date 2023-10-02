@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .images {
+        height: 800px;
+        width: 500px;
+    }
+}

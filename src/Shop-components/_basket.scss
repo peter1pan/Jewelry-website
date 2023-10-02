@@ -1,0 +1,58 @@
+.main-basket-div {
+    margin: 4rem;
+    
+    .basket-details-section {
+        background-color: white;
+        border-radius: 10px;
+        width: 800px;
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        .basket-delete-button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 20px;
+            &:hover {
+                color: red;
+            }
+        }
+        .item-count-div {
+            font-size: 20px;
+            button {
+                border: 1px solid black;
+                font-size: 20px;
+                padding: 0.2rem;
+                background: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.empty-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100vh;
+    .empty-go-shop {
+        text-decoration: none;
+        padding-top: 1.5rem;
+    }
+}
+
+.total-price-div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    right: 30%;
+    top: 7%;
+    border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+$main-font: "Philosopher", sans-serif;
+$main-color: rgb(217, 185, 155);
+
+body {
+  font-family: $main-font;
+  background-color: $main-color;
+}
+
+button {
+  font-family: $main-font;
+}
+

@@ -1,0 +1,68 @@
+.about {
+    background-image: url(./img/header-image.jpg);
+    background-position: center;
+    height: 600px;
+    .register-button {
+        text-decoration: none;
+        font-size: 20px;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        color: black;
+        z-index: 99999;
+    }
+    .dive-in {
+        background-color: rgba(245, 245, 245, 0.527);
+        width: 400px;
+        height: 600px;
+        position: absolute;
+        left: 10%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 300;
+            margin-top: 10rem;
+            padding: 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: whitesmoke;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(60, 58, 58, 1) 100%);
+            font-size: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+            width: 110px;
+
+            &:hover {
+                background: rgb(65, 64, 64);
+            }
+        }
+    }
+    .register {
+        z-index: 9999;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            &:hover {
+                color: #f1f1f1;
+                transition: 0.2s;
+            }
+        }
+    }
+}

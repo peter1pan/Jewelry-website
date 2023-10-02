@@ -1,0 +1,64 @@
+$main-font: "Philosopher", sans-serif;
+
+.form-container {
+    background-image: url(../img/shop-image.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .back-home-button {
+        text-decoration: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 20px;
+        color: black;
+    }
+    .register-logo-image {
+        img {
+            width: 300px;
+            height: 500px;
+        }
+    }
+    .register-floor {
+        margin: 2rem;
+        .register-submit-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+            .sign-in-button {
+                background-image: linear-gradient(-180deg, rgb(255, 255, 255) 0%, rgb(217, 185, 155) 96%);
+                font-size: 20px;
+                width: 100px;
+                height: 50px;
+                border-radius: 10px;
+                text-align: center;
+                color: black;
+                cursor: pointer;
+
+                &:hover {
+                    background: rgb(189, 148, 111);
+                    transition: 0.2s;
+                }
+            }
+        }
+        #form {
+            align-items: center;
+            label {
+                font-size: 20px;
+                display: flex;
+                padding-bottom: 1rem;
+                padding-top: 1rem;
+            }
+            input {
+                font-size: 15px;
+                border-radius: 5px;
+                border: 1px solid black;
+                height: 25px;
+            }
+            input::placeholder {
+                font-family: $main-font;
+            }
+        }
+    }
+}
